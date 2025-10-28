@@ -15,6 +15,7 @@ A comprehensive CI/CD configuration and configuration-management toolkit focused
 - Real-time monitoring
 - Configuration management
 - Backup and recovery system
+<<<<<<< HEAD
 
 ### Production Features
 - SSL/TLS encryption
@@ -84,4 +85,39 @@ See the `/docs` folder for architecture, operational runbooks, and any experimen
 MIT License
 
 ## FAQ
+<<<<<<< HEAD
 update
+=======
+=======
+- **NEW**: Multi-cloud support (AWS, Azure, GCP)
+- **NEW**: Slack/Discord notifications
+
+## Quick Start
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Configure environment variables
+4. Run in development mode: `npm run dev`
+5. Access dashboard at http://localhost:3000
+
+## Development Setup
+```bash
+# Install dependencies
+npm install
+
+# Run tests
+npm test
+
+# Start development server
+npm run dev
+```
+
+## Documentation
+See `/docs` folder for detailed documentation.
+
+## Contributing
+Please read CONTRIBUTING.md before submitting pull requests.
+
+## License
+MIT License
+>>>>>>> 02011a5 (updating dev)
+>>>>>>> 07c8731 (feat: Add test feature)

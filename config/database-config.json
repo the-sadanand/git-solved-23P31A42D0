@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "production": {
     "connection": {
       "host": "prod-db.example.com",
@@ -77,3 +78,32 @@
     }
   }
 }
+=======
+  "connection": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "devops_development",
+    "username": "dev_user",
+    "password": "dev_password",
+    "ssl_mode": "disable",
+    "pool_size": 5,
+    "timeout": 10
+  },
+  "backup": {
+    "enabled": false,
+    "schedule": "manual",
+    "retention_days": 7,
+    "location": "/tmp/backups"
+  },
+  "replication": {
+    "enabled": false,
+    "replicas": 0,
+    "sync_mode": "asynchronous"
+  },
+  "development": {
+    "seed_data": true,
+    "reset_on_restart": true,
+    "debug_queries": true
+  }
+}
+>>>>>>> 02011a5 (updating dev)
