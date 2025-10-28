@@ -83,3 +83,4 @@ See the `/docs` folder for architecture, operational runbooks, and any experimen
 ## License
 MIT License
 
+## FAQ
