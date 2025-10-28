@@ -2,16 +2,16 @@ application:
   name: DevOpsSimulator
   version: 1.0.0
   environment: production
-  
+
 server:
   host: 0.0.0.0
   port: 8080
   ssl_enabled: true
-  
+
 logging:
   level: INFO
   format: json
-  
+
 # Development configuration (enabled via environment variable)
 development:
   enabled: false
@@ -19,3 +19,48 @@ development:
   hot_reload: false
   debug_mode: false
   mock_apis: false
+
+# ---------------------------------------------------------------------------
+# Experimental configuration (kept here for convenience).
+# By default experimental features are DISABLED to keep production stable.
+# To enable, set `experimental.enabled: true` and test in a non-production
+# environment. THESE FEATURES ARE NOT PRODUCTION-READY.
+# ---------------------------------------------------------------------------
+experimental:
+  enabled: false
+  # Summary: advanced, multi-cloud, AI-driven settings. Toggle only in testing.
+  note: "Experimental settings - not production ready. Enable only in testing."
+  application:
+    version: 3.0.0-experimental
+    experimental_mode: true
+  server:
+    # Additional ports used by experimental services
+    multi_port: [9000, 9001, 9002]
+  logging:
+    level: TRACE
+    format: structured
+    output: /var/log/experimental.log
+  database:
+    host: cluster.example.com
+    port: 5432
+    name: devops_experimental
+    distributed: true
+  features:
+    auto_scaling: advanced
+    load_balancer: ai-optimized
+    backup_enabled: true
+    chaos_engineering: enabled
+  ai_features:
+    predictive_scaling: true
+    anomaly_detection: true
+    auto_optimization: true
+    model_version: "v2.1.0"
+  cloud_providers:
+    - aws
+    - azure
+    - gcp
+    - digitalocean
+  security:
+    zero_trust: enabled
+    encryption: AES-256
+    audit_logging: comprehensive
