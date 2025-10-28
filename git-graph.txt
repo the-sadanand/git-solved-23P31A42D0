@@ -1,0 +1,26 @@
+* 3bb9e5d (HEAD -> main, origin/main, origin/HEAD) docs: Add changelog
+| *   b497697 (refs/stash) WIP on feature/another-feature: ef37e9f Bad commit
+| |\  
+| | * 6bd1329 index on feature/another-feature: ef37e9f Bad commit
+| |/  
+| * ef37e9f (feature/another-feature) Bad commit
+| | * b947d24 (origin/feature/another-feature) some script changes in package.json file
+| |/  
+| * 6b7c843 add feature/another-feature files CHANGELOG.md checkpoint1.png checkpoint2.png package-lock.json scritps/
+| * b89c680 feat: Add test feature
+|/  
+* 928f8a6 (tag: v1.1.0, tag: v1.0.0) docs: Update README
+* 60120a7 docs:Add FAQ section
+| * bd113bf (origin/feature/new-feature, feature/new-feature) feat:Add new feature
+|/  
+*   a55fadd Merge branch 'conflict-simulator'
+|\  
+| * d3dd9b2 (instructor/conflict-simulator, conflict-simulator) updating conflict-simulator
+* |   b2319ae "merge: Resolve all conflicts between main and dev branches
+|\ \  
+| * | 02011a5 (instructor/dev, dev) updating dev
+| |/  
+* | 0312c6f (instructor/main, instructor/HEAD) updating main
+* | fadfd24 Revise README for DevOps Simulator project
+|/  
+* ae630eb Initial commit
